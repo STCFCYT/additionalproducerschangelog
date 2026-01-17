@@ -1,7 +1,9 @@
 b{
   color:maroon;
   font-size:40pt;
+  font-family: "IBM Plex Mono", monospace;
 }
 body {
   background: #85868a;
+  font-family: "IBM Plex Mono", monospace;
 }
