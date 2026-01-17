@@ -1,118 +1,174 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-<title>Additional Producers Changelog</title>
-</head>
-<body>
-<p>v2.4.0: One More Time
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>My GitHub Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
 
--Moved changelog to Github/JS, I hope this works
+      body {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          sans-serif;
+        background: #0f172a;
+        color: #e5e7eb;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+      }
 
-v2.3.0: Finally, A Website!
+      .card {
+        max-width: 800px;
+        width: 100%;
+        background: #020617;
+        border-radius: 16px;
+        border: 1px solid #1f2937;
+        box-shadow: 0 24px 60px rgba(0, 0, 0, 0.6);
+        padding: 2.5rem 2rem;
+      }
 
--Moved Changelog to Wix (January 11, 2026)
+      .tag {
+        display: inline-block;
+        font-size: 0.75rem;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: #a5b4fc;
+        background: rgba(79, 70, 229, 0.12);
+        border-radius: 999px;
+        padding: 0.25rem 0.75rem;
+        margin-bottom: 1rem;
+      }
 
-v2.2.0: Again, So Convenient
+      h1 {
+        font-size: clamp(2rem, 4vw, 2.6rem);
+        margin-bottom: 0.75rem;
+      }
 
--Added a link to the changelog from Tynker (December 30, 2025)
+      .subtitle {
+        color: #9ca3af;
+        margin-bottom: 1.75rem;
+        line-height: 1.6;
+      }
 
-v2.1.1: Again, I’m Sorry
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        gap: 1.25rem;
+        margin-bottom: 2rem;
+      }
 
--Moved changelog to DropBox due to Tynker’s rules YET AGAIN (November 21, 2025)
+      .item {
+        background: #020617;
+        border-radius: 12px;
+        border: 1px solid #1f2937;
+        padding: 1rem 1.1rem;
+      }
 
-v2.1.0: I Tried
+      .item-title {
+        font-size: 0.9rem;
+        font-weight: 600;
+        margin-bottom: 0.35rem;
+      }
 
--Added an effect for multiplications, and moved the endgame to multiply twice (November 7-9, 2025)
+      .item-text {
+        font-size: 0.85rem;
+        color: #9ca3af;
+        line-height: 1.5;
+      }
 
-v2.0.2: Nothing Much
+      .buttons {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.75rem;
+      }
 
--Just fixed a few lines of code to make it more clear, (doesn't really change anything) and remembered to make 8th APR's cost appear after getting 7th APR (November 4, 2025)
+      .btn-primary,
+      .btn-ghost {
+        font-size: 0.9rem;
+        border-radius: 999px;
+        padding: 0.6rem 1.3rem;
+        border: 1px solid transparent;
+        cursor: pointer;
+        text-decoration: none;
+        transition: transform 0.12s ease, box-shadow 0.12s ease,
+          background 0.12s ease, border-color 0.12s ease;
+      }
 
-v2.0.1: Again, More Keep Coming
+      .btn-primary {
+        background: linear-gradient(135deg, #4f46e5, #6366f1);
+        color: white;
+        box-shadow: 0 14px 30px rgba(79, 70, 229, 0.45);
+      }
 
--Re-added the 2nd feature from Oct. 5, 2025, the Booster and Tickspeed Boosters only show up when (log(AP) > boostmult > 25) and (log(AP)/50 > tickspeedboostmult > 1.1), and edited the thumbnail
+      .btn-primary:hover {
+        transform: translateY(-1px);
+        box-shadow: 0 18px 40px rgba(79, 70, 229, 0.6);
+      }
 
-v2.0.0: New Endgame
+      .btn-ghost {
+        background: transparent;
+        color: #e5e7eb;
+        border-color: #374151;
+      }
 
--Moved Endgame to 1 MP, I'll try to add more things later. (October 8 and 24, 2025, I think)
+      .btn-ghost:hover {
+        background: rgba(15, 23, 42, 0.9);
+      }
 
-v1.5.3: I'm Sorry
+      @media (max-width: 600px) {
+        .card {
+          padding: 1.75rem 1.4rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="card">
+      <div class="tag">Welcome</div>
+      <h1>Hey, I’m Philip — this is my GitHub site</h1>
+      <p class="subtitle">
+        I’m experimenting with code, games, and random projects. This page is a
+        simple starting point I can keep evolving.
+      </p>
 
--Removed all soundtracks due to Tynker's rules, EVEN THOUGH I GAVE CREDIT (-_-)(October 6, 2025)
+      <section class="grid">
+        <div class="item">
+          <div class="item-title">Projects</div>
+          <p class="item-text">
+            List your repos, experiments, or anything you’re building. Link out
+            to GitHub projects here.
+          </p>
+        </div>
+        <div class="item">
+          <div class="item-title">Games & experiments</div>
+          <p class="item-text">
+            Embed or link to browser games, incremental prototypes, or anything
+            you’re testing.
+          </p>
+        </div>
+        <div class="item">
+          <div class="item-title">About</div>
+          <p class="item-text">
+            A short blurb about who you are, what you like, and what you’re
+            learning.
+          </p>
+        </div>
+      </section>
 
-v1.5.2: More Keep Coming!
-
--Fixed how the current amounts of APRs are displayed (October 5, 2025)
-
-v1.5.1: Yet Some More Fixes
-
--Fixed how Addition Upgrades work (October 3, 2025)
-
-v1.5.0: Still Stuck? Another Solution Indeed!
-
--Fixed how Max All button works AGAIN, and added upgrades, so that you don't get stuck at e60 AP. (August 2025, date forgotten YET AGAIN.)
-
-v1.4.4: Lots of Fixes
-
--I actually had to fix the code of the Max All Button, and fix some text sizes (August 10, 2025)
-
-v.1.4.3: It's Time to Bulk Up!
-
--Fixed the Max all button to Max ALL APRs and Tickspeed available, which means I'm technically done with the Addition Layer (August 8, 2025) ^-^
-
-v1.4.2: A Big Mistake Fixed!
-
--Fixed the formula of Tickspeed Booster Multiplier (August 4-6, 2025)
-
-v1.4.1: Inspired By Who?
-
--Added credits at the very bottom of this “tutorial” (August 2, 2025)
-
-v1.4.0: New Button
-
--Added a Max All Button (might bug out, I tried my best) (July 2025, date forgotten)
-
--Removed the unstuck button and fixed the cost buttons so that there ISN'T ANY WAY for AP to go NEGATIVE. (July 2025, date forgotten)
-
-v1.3.0: New Notation
-
--Added a NEW Logarithmic Notation (5000 => e3.69, 80000 => e4.9) and fixed the tickspeed booster reward (because I could only figure out the code with addition to a base upgrade boost.) (July 2025, date forgotten, sorry I haven't listed dates because I was too lazy)
-
-v1.2.1: Stuck? Well, Here's The Solution
-
-Made a reset button for players who get stuck, which is very helpful. (July 16, 2025)
-
-v1.2.0: Hello to the Talking Addition Symbol!
-
--Added a thumbnail, which was a "big" update to me. (July 12, 2025)
-
-v1.1.1: Play 'Till The End
-
--Music stops when the endgame is reached
-
-v1.1: So Convenient
-
--Decided to remove the changelog from the game and put it into this description, and added another booster (July 2, 2025)
-
-v1.0.4: Just Two Fixes
-
--Fixed Booster and Tickspeed Mult. displays (May 25, 2025)
-
-v1.0.3: Here We Go Again...
-
--Added more music (April 28, 2025)
-
-v1.0.2: Another Minor Tweak
-
--Added dates of updates (April 6, 2025)
-
-v1.0.1: Just a Very Minor Tweak
-
--Added Changelog (April 5, 2025)
-
-v1.0.0: The Release
-
--Added 8 Additional Producers,
-
-Tickspeed, and a Booster (March 2025, date forgotten)</p>
-<html>
+      <div class="buttons">
+        <a class="btn-primary" href="https://github.com" target="_blank"
+          >View my GitHub</a
+        >
+        <a class="btn-ghost" href="#"
+          >Edit this layout later</a
+        >
+      </div>
+    </main>
+  </body>
+</html>
